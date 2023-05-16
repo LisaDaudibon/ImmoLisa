@@ -4,9 +4,16 @@ body {
   padding: 0;
 }
 
+.mainly {
+  margin: 0 20px; /* Apply margin to the left and right sides */
+}
+
 .navbar {
   background-color: #000080; /* Dark blue background color */
   color: #ffffff; /* Text color for navbar items */
+  margin: 0;
+  padding: 0;
+
 }
 
 .navbar ul {
@@ -24,4 +31,11 @@ body {
   padding: 15px 20px;
   text-decoration: none;
   color: #ffffff;
+}
+
+.card {
+  background-color: #ffffff;
+  max-width: 250px;
+  border: 1px solid black;
+  padding: 10px;
 }
